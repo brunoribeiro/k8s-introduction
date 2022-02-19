@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<component name="ProjectModuleManager">
+  <modules>
+    <module fileurl="file://$PROJECT_DIR$/hello-world-k8s/hello-world-k8s.iml" filepath="$PROJECT_DIR$/hello-world-k8s/hello-world-k8s.iml" />
+    <module fileurl="file://$PROJECT_DIR$/.idea/k8s-introduction.iml" filepath="$PROJECT_DIR$/.idea/k8s-introduction.iml" />
+    <module fileurl="file://$PROJECT_DIR$/weather-api/weather-api.iml" filepath="$PROJECT_DIR$/weather-api/weather-api.iml" />
+    <module fileurl="file://$PROJECT_DIR$/weather-fe/weather-fe.iml" filepath="$PROJECT_DIR$/weather-fe/weather-fe.iml" />
+  </modules>
+</component>
+</project>

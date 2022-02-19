@@ -1,0 +1,12 @@
+api:
+  keys:
+    geo:
+      url: "${GEO_URL}"
+      key: "${GEO_API_KEY}"
+    weather:
+      url: "${WEATHER_URL}"
+      key: "${WEATHER_API_KEY}"
+    giphy:
+      url: "${GIPHY_URL}"
+      key: "${GIPHY_API_KEY}"
+

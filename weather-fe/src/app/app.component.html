@@ -1,0 +1,19 @@
+<div class="main-div">
+  <mat-card>
+    <mat-card-content>
+      <form>
+        <mat-form-field>
+          <input name="search" matInput placeholder="Show me the weather ..." [(ngModel)]="searchValue">
+        </mat-form-field>
+        <button mat-flat-button matPrefix mat-icon-button (click)="search()">
+          <mat-icon>search</mat-icon>
+        </button>
+        <div class="video">{{currentTemp}}º - {{currentDescription}}</div>
+        <video *ngIf="currentImage!= undefined" loop autoplay controls>
+          <source [src]= currentImage type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

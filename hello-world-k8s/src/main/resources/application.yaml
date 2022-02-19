@@ -1,0 +1,10 @@
+rest:
+  geo:
+    url: https://maps.googleapis.com/maps/api/geocode/json
+    key: "${GEO_API_KEY}"
+  weather:
+    url: http://api.weatherbit.io/v2.0/current
+    key: "${WEATHER_API_KEY}"
+  giphy:
+    url: http://api.giphy.com/v1/gifs/search
+    key: "${GIPHY_API_KEY}"
